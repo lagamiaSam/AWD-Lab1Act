@@ -1,0 +1,107 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    font-size: 20px;
+    padding: 10px;
+    font-style: normal;
+    font-weight: bold;
+}
+form label{
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+form input[type="number"] {
+    width: 10%;
+    padding: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px; 
+    font-size: 15px; 
+}
+nav {
+    background-color: rgb(174, 19, 19);
+    padding: 6px;
+    text-align: center;
+    margin: 0;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    margin: 5px;
+    font-size: 18px;
+}
+h1 {
+    background-image: url(/assets/img/shoes.jpg);
+    background-size: cover;
+    background-position: center;
+    color: black;
+    padding: 30px;
+    margin: 0;
+    font-size: 50px;
+}
+
+.shoe-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.shoes-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.shoe-item {
+    text-align: center;
+    width: 250px;
+}
+
+.shoe-item img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: inset;
+}
+
+.shoe-item p {
+    font-size: 15px;
+    margin-top: 20px;
+    color: black;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #a00000;
+    color: white;
+    text-align: center;
+    padding: 6px 0;
+    font-size: 14px;
+    height: auto;
+    line-height: normal;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+    margin: auto;
+    width: 50%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}

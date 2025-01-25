@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAWDAWG - Demo</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <script src="/assets/js/script.js" defer></script>
+</head>
+<body>
+    <nav>
+        <a href="/pages/page1/index.html">Home</a>
+        <a href="/pages/page2/about.html">About</a>
+    </nav>
+
+    <h1>RAWDAWG</h1>
+    <p>Welcome to Rawdawg! Enter your shoe size below.</p>
+
+    <form action="#about" method="get">
+        <label for="size">Enter Shoe Size: </label>
+        <input type="number" id="size" name="size" required>
+        <input type="submit" value="Submit">
+    </form>
+
+    <div class="shoe-section">
+        <div class="shoes-container">
+            <div class="shoe-item">
+                <img src="/assets/img/Jordan1.png" alt="Shoe 1">
+                <p>The Air Jordan 1 Retro High OG ‘University Blue’ pays homage to Michael Jordan’s UNC alma mater.</p>
+            </div>
+            <div class="shoe-item">
+                <img src="/assets/img/Og.jpg" alt="Shoe 2">
+                <p>The Jordan 1 Retro High is a tribute to the first iteration of the Air Jordan 1.</p>
+            </div>
+            <div class="shoe-item">
+                <img src="/assets/img/travis.jpg" alt="Shoe 3">
+                <p>The Air Jordan 1 Travis Scott features Mocha suede overlays and reversed black leather Swooshes.</p>
+            </div>
+        </div>
+    </div>
+    <section id="about">
+        <p>Your shoe size details:</p>
+        <p id="sizeDisplay"></p>
+        <p id="message"></p>
+        <p>Available Sizes: </p>
+        <ul id="sizeList"></ul>
+    </section>
+
+    <footer>
+        <p>&copy; 1984 Jordan. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
